@@ -13,10 +13,11 @@ Thank you for your interest in contributing to our repository!
 All contributions to the repository are made through [pull requests.](https://help.github.com/articles/about-pull-requests/)
 
 To keep our repository organized, you should follow the file structure found in [README.](README.md)
-Also, a problem's folder should contain the solution in a programming language of your choice (C++, Python, Haskell, JS etc.) and a [markdown file](https://guides.github.com/features/mastering-markdown/) briefly explaining your approach:
+Also, a problem's folder should contain the solution in a programming language of your choice (C++, Python, Haskell, JS etc.) , a [markdown file](https://guides.github.com/features/mastering-markdown/) briefly explaining your approach and a file with link to the problem:
 
 ```
 ├── SomeRandomProblem
+    ├── LinkToProblem.md
     ├── Solution.md
     └── source.py
 ```

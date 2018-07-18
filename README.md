@@ -38,19 +38,19 @@ For the topic structure we follow the [Competitive Programming 3](https://cpbook
 
 ## Structure
 
-Our repository uses the following file structure:
+The problems in each topic are organized by subtopic or difficulty:
 
 ```
 ├── Topic1
 |   |
 |   ├── Resources.md
 |   |                    
-│   ├── Site1
+│   ├── Easy
 │   │   ├── Problem1
 │   │   ├── Problem2
 │   │   └── Problem3
 |   |
-|   └── Site2
+|   └── Medium
 │       ├── Problem1
 │       ├── Problem2
 │       └── Problem3
@@ -58,10 +58,10 @@ Our repository uses the following file structure:
 |   |
 |   ├── Resources.md
 |   |                    
-│   ├── Site1
+│   ├── Sub-topic1
 │   │   └── Problem1
 |   |
-|   └── Site2
+|   └── Sub-topic2
 │       ├── Problem1
 │       └── Problem2
 .
@@ -78,12 +78,12 @@ An example might look like this:
 |   |
 |   ├── Resources.md
 |   |                    
-│   ├── Hackerrank
+│   ├── Easy
 │   │   ├── Problem1
 │   │   ├── Problem2
 │   │   └── Problem3
 |   |
-|   └── Codechef
+|   └── Medium
 │       ├── Problem1
 │       ├── Problem2
 │       └── Problem3
@@ -91,10 +91,10 @@ An example might look like this:
 |   |
 |   ├── Resources.md
 |   |                    
-│   ├── SPOJ
+│   ├── BFS
 │   │   └── Problem1
 |   |
-|   └── Codeforces
+|   └── DFS
 │       ├── Problem1
 │       └── Problem2
 .
