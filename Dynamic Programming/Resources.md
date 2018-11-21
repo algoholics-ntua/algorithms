@@ -9,7 +9,7 @@ We suggest to read from more than one source, in order to build a good intuition
     * [Tabulation vs Memoization](https://www.geeksforgeeks.org/tabulation-vs-memoizatation/)
     * [Optimal Substructure Property](https://www.geeksforgeeks.org/dynamic-programming-set-2-optimal-substructure-property/)
     * [How to solve a DP problem](https://www.geeksforgeeks.org/solve-dynamic-programming-problem/)  
-* [How to write DP solutions](om/Are-there-any-good-resources-or-tutorials-for-dynamic-programming-DP-besides-the-TopCoder-tutorial/answer/Michal-Danilák)
+* [How to write DP solutions](https://www.quora.com/Are-there-any-good-resources-or-tutorials-for-dynamic-programming-DP-besides-the-TopCoder-tutorial/answer/Michal-Danilák)
 
 Here is a [quiz](https://www.commonlounge.com/discussion/cdbbfe83bcd64281964b788969247253) to test your knowledge.
 
