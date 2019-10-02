@@ -1,54 +1,29 @@
-#include <cstdio>
+#include <bits/stdc++.h> 
+using namespace std; 
+    
+int max(int a, int b) { return (a > b)? a : b; }  
+   
+int knapSack(int W, int wt[], int val[], int n)  
+{  
+      
+// Base Case  
+if (n == 0 || W == 0)  
+    return 0;    
+if (wt[n-1] > W)  
+    return knapSack(W, wt, val, n-1);  
 
-#define MAX_N 100
-#define MAX_W 100
-
-using namespace std;
-
-int N,T,W;
-int weight[MAX_N],value[MAX_N];
-int memo[MAX_N][MAX_W+1];
-
-int max(int x, int y){ return (x>y) ? x:y; }
-
-void initialize(){
-  for(int i=0;i<MAX_N;i++){
-    for(int j=0;j<=MAX_W;j++){
-      memo[i][j]=-1;
-    }
-  }
-}
-
-int dp(int n, int w){
-  if(memo[n][w]!=-1) return memo[n][w];
-
-  if(n==0) return (w>=weight[0]) ? value[0]:0;
-
-  int result;
-
-  if(w<weight[n]) result = dp(n-1,w);
-  else result = max(dp(n-1,w),value[n]+dp(n-1,w-weight[n]));
-
-  memo[n][w]=result;
-
-  return result;
-
-}
-
-
-int main(){
-  scanf("%d",&T);
-
-  while(T--){
-    scanf("%d",&N);
-    scanf("%d",&W);
-
-    for(int i=0;i<N;i++) scanf("%d",&value[i]);
-    for(int i=0;i<N;i++) scanf("%d",&weight[i]);
-
-    initialize();
-
-    printf("%d\n",dp(N-1,W));
-
-  }
-}
+else return max( val[n-1] + knapSack(W-wt[n-1], wt, val, n-1),  
+                    knapSack(W, wt, val, n-1) );  
+}  
+  
+// Driver code  
+int main()  
+{  
+    int val[] = {60, 100, 120};  
+    int wt[] = {10, 20, 30};  
+    int W = 50;  
+    int n = sizeof(val)/sizeof(val[0]);  
+    cout<<knapSack(W, wt, val, n);  
+    return 0;  
+}  
+  
