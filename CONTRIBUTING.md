@@ -23,5 +23,6 @@ Also, a problem's folder should contain the solution in a programming language o
 ```
 Make sure your code is readable and can easily be followed by anyone interested in your solution.
 For not wasting too much time on _Solution.md_, you can download and modify the [template.](SolutionTemplate.md)
+Please note that you should also include the problem on the corresponding topic's problem list held in _Resources.md_.
 
 Have fun coding!

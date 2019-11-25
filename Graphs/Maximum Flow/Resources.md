@@ -2,11 +2,11 @@
 
 The following material is suggested for studying the Maximum Flow Problem.
 
-It follows the outline of the presentation done in 13th November 2019 in the [Algoholics Algorithms Study Group](https://www.facebook.com/groups/2093168194256744/?hc_ref=ARSGu59POOQ5HPJBYqW4q9Nm-i0-wTVDnLuvie0GB44a49hGChJx8En59zFlaRVXcoo). 
+It follows the outline of the presentation done in 13th November 2019 in the [Algoholics Algorithms Study Group](https://www.facebook.com/groups/2093168194256744/?hc_ref=ARSGu59POOQ5HPJBYqW4q9Nm-i0-wTVDnLuvie0GB44a49hGChJx8En59zFlaRVXcoo).
 
 
 
-## Books & Lectures 
+## Books & Lectures
 
 ### Beginner
 
@@ -19,7 +19,7 @@ It follows the outline of the presentation done in 13th November 2019 in the [Al
 7. [Ford-Fulkerson Algortihm](https://en.wikipedia.org/wiki/Ford%E2%80%93Fulkerson_algorithm)
 8. [Overview of Maximum Flow Algorithms](http://delivery.acm.org/10.1145/2630000/2628036/p82-goldberg.pdf?ip=147.102.203.39&id=2628036&acc=ACTIVE%20SERVICE&key=5641A0C343C36AC1%2E170A05475919F66C%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1542111904_0105565911230625fcfb75c696d97688)
 
-### Advanced 
+### Advanced
 
 1. [Gomory-Hu Trees](https://www.geeksforgeeks.org/gomory-hu-tree-introduction/) ([Slides](https://www.corelab.ntua.gr/seminar/material/2008-2009/2008.10.20.Gomory-Hu%20trees%20and%20applications.slides.pdf), [Python Implementation](https://github.com/papachristoumarios/python-GomoryHu))
 
@@ -37,7 +37,3 @@ It follows the outline of the presentation done in 13th November 2019 in the [Al
 *  [PROFIT - Maximum Profit](https://www.spoj.com/problems/PROFIT/fbclid=IwAR2mm6r2IQ7coDKzVBkDpw7vTOaxmdRhN2uNe7sCxjLkhSVHKfORuIG9-tI)
 *  [OILCOMP](https://www.spoj.com/problems/OILCOMP/fbclid=IwAR2h6ab2UB51M1FYoDm83jxFV65Z2ZltNDFxtRFB2q71gn8aLb3mMiKdjVw)
 * [Road Network](https://www.hackerrank.com/challenges/road-network/problem)
-
-
-
-
