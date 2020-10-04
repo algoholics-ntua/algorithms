@@ -1,0 +1,43 @@
+import java.io.*;//to import IO-Package
+public class indices//to declare class
+{
+	public static void main(String args[])throws IOException//to define the main function and handle Input/Output Exceptions
+	{
+	InputStreamReader read=new InputStreamReader(System.in);//Defining Buffered-Reader class
+	BufferedReader in=new BufferedReader(read);
+	int n;//to store the length of the array
+	n=Integer.parseInt(in.readLine());
+	int arr[]=new int[n];//to declare and initialize the array
+	int i;//loop variable
+	for(i=0;i<n;i++)//loop for taking array values as input
+	arr[i]=Integer.parseInt(in.readLine());//to take input of the array from user
+	int tar;//to enter the target number
+	tar=Integer.parseInt(in.readLine());
+	int s;//to find sum of nos in array
+	int p=0;int l=0;int k=0;//to store the indices
+	int j;//loop variable
+	for(i=0;i<n;i++)
+	{
+	for(j=0;j<n;j++)
+	{
+	s=arr[i]+arr[j];
+	if(s==tar)//if the sum equals the target variable
+	{
+	p=1;//flag variable
+	l=i;//to store the first indices
+	k=j;//to store the second indices
+	break;
+	}
+	else
+	continue;
+    }
+	}
+	if(p==1)
+	{
+	System.out.println(l);
+	System.out.println(k);
+	}
+	else
+	System.out.println("No such indices");
+	}
+}
